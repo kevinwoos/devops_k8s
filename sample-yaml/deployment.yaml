@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: sample-yaml
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       run: sample-yaml
